@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display:flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+      width: 100%;
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>Indiana Jones</h1>
+<div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/crusade.jpg" alt="crusaders">
+         <h3>The Last Crusade</h3>
+         <p> In the Last Crusade, Indiana goes on his final crusade. There was a mixed review about the Temple of Doom so Spielberg toned down the dark tone and violence in this movie. </p>
+      </div>
+      <div class="column">
+        <img src="images/raiders.jpg" alt="raiders of the lost ark">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>In this film, Indiana Jones retrieves the Lost Ark from an ancient and important place. It was created in the early
+        1970s.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="temple of doom">
+        <h3>Temple of Doom</h3>
+        <p> This film was a product of previous film's success but ultimately it did not live up to the standard of the other films before. It was very intense and imaginative.</p>
+      </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
