@@ -4,8 +4,8 @@ var person = {
   hobby: "basketball",
 };
 console.log(person);
-var firstName = person.firstName
-console.log("The person's name is: " + firstName + ".")
+var fullName = (person.firstName + " " + person.lastName);
+console.log("The person's name is: " + fullName + ".")
 person.job = "coder";
 console.log("The person's current job is: " + person.job + ".");
 person.previousJob = "pastor";
